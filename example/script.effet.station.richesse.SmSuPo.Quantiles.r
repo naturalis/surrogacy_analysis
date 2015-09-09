@@ -78,16 +78,6 @@ lines(diversite.borne.sup.selection.aleatoire.pourcentage,lty=3, col="red")
 lines(diversite.borne.inf.selection.aleatoire.pourcentage,lty=3, col="red")
 lines(diversite.selection.richesse.complementarite.poisson.pourcentage,col="blue")
 lines(diversite.selection.richesse.complementarite.gen.pourcentage,lty=1,col="black")
-lines(diversite.selection.richesse.complementarite.sal.pourcentage,lty=2,col="black")
-lines(diversite.selection.richesse.complementarite.tho.pourcentage,lty=3,col="black")
-#lines(diversite.selection.richesse.complementarite.fam.pourcentage,lty=3, col="black")
-lines(diversite.selection.richesse.complementarite.oxy.pourcentage,lty=4,col="black")
-
-
-#lines(diversite.selection.richesse.complementarite.gna.pourcentage,lty=5,col="black")
-
-#legend(9,80,c("Random curve","Random sup","Random inf","Optimal","Genus","Woody Vegetation","Family","Salticidae","Thomisidae","Gnaphosidae"),
-#       cex=0.8,col=c("red","red","red","blue","green","green","black","black","black","black"),lty=c(1,3,3,1,1,3,1,2,3,4),bty="n")
 
 legend(12,80,c("Genus","Salticidae","Thomisidae","Oxyopidae"),
        cex=0.8,col=c("black","black","black","black"),lty=c(1,2,3,4),bty="n")
