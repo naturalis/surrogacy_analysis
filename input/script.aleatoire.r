@@ -8,7 +8,7 @@ run.alea=function(table.site){
 
 
 unselected.sites=rownames(table.site)
-selected.sites=NULL #On initialise la liste de sites selectionnés à NULL
+selected.sites=NULL
 selected.sites=sample(unselected.sites,length(unselected.sites))
 selected.sites
 
